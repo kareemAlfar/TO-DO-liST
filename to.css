@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(IMG/1.jpg);
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: #352f5b; */
+    color: white;
+    text-transform: capitalize;
+}
+
+h1 {
+    background-color: linear-gradient(to top, #352f5b);
+    margin: 50px 0;
+    text-align: center;
+}
+
+.ss {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    background-color: rgba(172, 214, 221, 0.25);
+    width: 70%;
+    border-bottom: solid 3px white;
+    padding: 20px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 22px;
+}
+
+.icon-angry:before {
+    margin-left: 10px;
+    color: rgb(245, 6, 6);
+    /* display: none; */
+}
+
+.finish {
+    text-decoration-line: line-through;
+    /* text-decoration-style: wavy; */
+}
+
+.cc {
+    display: none;
+}
+
+.icon-heart {
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(245, 6, 6);
+    /* display: none; */
+}
+
+.star {
+    font-size: 30px;
+    color: gold;
+}
+
+.icon-star:hover {
+    font-size: 30px;
+}
+
+div h2 {
+    text-align: center;
+}
+
+.do {
+    margin-top: 100px;
+}
+
+#textbox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 30%;
+    /* align-items: center; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#text {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    all: unset
+}
+
+.icon-upload {
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 40px;
+}
+
+.icon-upload:hover {
+    color: rgb(15, 219, 168);
+    font-size: 45px;
+}
+
+
+/* //////////////////// media //////////////////////// */
+
+@media (max-width: 700px) {
+    #textbox {
+        width: 90%;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #text {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #button {
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
